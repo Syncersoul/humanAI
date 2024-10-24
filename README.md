@@ -1,17 +1,19 @@
-Hardware Requirements
-
+**Hardware Requirements**
+```
 Minimum
-
 4CPU 8RAM 100GB
-Recommended
 
+Recommended
 8CPU 32RAM 200GB
 Rent On Hetzner | Rent On OVH
 Dependencies Installation
+```
 
-# Install dependencies for building from source
+**Install dependencies for building from source**
+```
 sudo apt update
 sudo apt install -y curl git jq lz4 build-essential
+```
 
 # Install Go
 sudo rm -rf /usr/local/go
