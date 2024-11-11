@@ -130,10 +130,12 @@ sudo systemctl daemon-reload
 sudo systemctl enable humans.service
 ```
 
-# Start the service and check the logs
+**Start the service and check the logs**
+```
 sudo systemctl start humans.service
 sudo journalctl -u humans.service -f --no-hostname -o cat
 Create Validator
+```
 
 # create wallet
 humansd keys add wallet
