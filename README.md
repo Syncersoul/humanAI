@@ -137,8 +137,10 @@ sudo journalctl -u humans.service -f --no-hostname -o cat
 Create Validator
 ```
 
-# create wallet
+**create wallet**
+```
 humansd keys add wallet
+```
 
 ## console output:
 #- name: wallet
