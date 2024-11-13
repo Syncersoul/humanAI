@@ -142,12 +142,14 @@ Create Validator
 humansd keys add wallet
 ```
 
-## console output:
-#- name: wallet
-#  type: local
-#  address: human1lfpde6scf7ulzvuq2suavav6cpmpy0rzxne0pw
-#  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"Auq9WzVEs5pCoZgr2WctjI7fU+lJCH0I3r6GC1oa0tc0"}'
-#  mnemonic: ""
+**console output**
+```
+- name: wallet
+  type: local
+  address: human1lfpde6scf7ulzvuq2suavav6cpmpy0rzxne0pw
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"Auq9WzVEs5pCoZgr2WctjI7fU+lJCH0I3r6GC1oa0tc0"}'
+  mnemonic: ""
+```
 
 #!!! SAVE SEED PHRASE (example)
 kite upset hip dirt pet winter thunder slice parent flag sand express suffer chest custom pencil mother bargain remember patient other curve cancel sweet
