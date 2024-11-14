@@ -157,8 +157,10 @@ kite upset hip dirt pet winter thunder slice parent flag sand express suffer che
 #!!! SAVE PRIVATE VALIDATOR KEY
 cat $HOME/.humans/config/priv_validator_key.json
 
-# wait util the node is synced, should return FALSE
+**wait util the node is synced, should return FALSE**
+```
 humansd status 2>&1 | jq .SyncInfo.catching_up
+```
 
 # go to discord https://discord.gg/humansdotai and ask for some tokens
 
