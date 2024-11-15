@@ -162,10 +162,12 @@ cat $HOME/.humans/config/priv_validator_key.json
 humansd status 2>&1 | jq .SyncInfo.catching_up
 ```
 
-# go to discord https://discord.gg/humansdotai and ask for some tokens
+go to discord https://discord.gg/humansdotai and ask for some tokens
 
-# verify the balance
+**verify the balance**
+```
 humansd q bank balances $(humansd keys show wallet -a)
+```
 
 ## console output:
 #  balances:
