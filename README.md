@@ -169,11 +169,11 @@ go to discord https://discord.gg/humansdotai and ask for some tokens
 humansd q bank balances $(humansd keys show wallet -a)
 ```
 
-## console output:
-#  balances:
-#  - amount: "10000000000000000000"
-#    denom: uheart
-
+**console output**
+``` balances:
+amount: "10000000000000000000"
+denom: uheart
+```
 # create validator
 humansd tx staking create-validator \
 --amount=9000000000000000000uheart \
