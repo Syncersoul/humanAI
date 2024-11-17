@@ -174,7 +174,9 @@ humansd q bank balances $(humansd keys show wallet -a)
 amount: "10000000000000000000"
 denom: uheart
 ```
-# create validator
+
+**create validator**
+```
 humansd tx staking create-validator \
 --amount=9000000000000000000uheart \
 --pubkey=$(humansd tendermint show-validator) \
@@ -187,6 +189,7 @@ humansd tx staking create-validator \
 --fees=10000aheart \
 --from=wallet \
 -y
+```
 
 # make sure you see the validator details
 humansd q staking validator $(humansd keys show wallet --bech val -a)
