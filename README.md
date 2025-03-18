@@ -282,3 +282,4 @@ Add installation instructions
 Add quick start guide
 Document dashboard setup
 Add metric collection examples
+Add alert configuration guide
