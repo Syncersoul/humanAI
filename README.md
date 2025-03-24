@@ -284,3 +284,4 @@ Document dashboard setup
 Add metric collection examples
 Add alert configuration guide
 Add logging integration
+Add performance tuning tips
