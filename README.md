@@ -286,3 +286,4 @@ Add alert configuration guide
 Add logging integration
 Add performance tuning tips
 Add contributing guidelines
+Add code of conduct
